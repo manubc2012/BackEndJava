@@ -22,5 +22,16 @@ public class ListadeListas2 {
             String datos= sc.nextLine();
             usuario2.add(datos);
         }
+
+        usuarios.add(usuario1);
+        usuarios.add(usuario1);
+        System.out.println("..........................");
+        for (List<String> usuari:usuarios){
+            for (String dato:usuari){
+                System.out.print(dato + " ");
+            }
+            System.out.println();
+        }
+
     }
 }
